@@ -6,8 +6,8 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Anh
 middle_name: N.
 last_name: Nhu
-contact_note: > 
-  anhu@umd.edu
+contact_note: >
+  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -16,7 +16,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: profile.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://anh-nn01.github.io # the base hostname & protocol for your site
 baseurl: /anh-n-nhu.github.io # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -153,16 +153,6 @@ collections:
   projects:
     output: true
 
-# announcements:
-#   enabled: true
-#   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-#   limit:  # leave blank to include all the news in the `_news` folder
-
-# latest_posts:
-#   enabled: false
-#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-#   limit:  # leave blank to include all the blog posts
-
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
@@ -274,8 +264,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Nhu]
-  first_name: [Anh, N.]
+  last_name: [Einstein]
+  first_name: [Albert, A.]
 
   style: apa
   locale: en
